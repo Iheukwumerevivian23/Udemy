@@ -1,0 +1,140 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+main {
+  background-color: #f8f9fb;
+  height: 90vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: space-around;
+}
+.header {
+  display: flex;
+  height: 15vh;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+.firstnav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+}
+.firstnav img {
+  font-family: arial;
+  height: 40px;
+  width: 6vw;
+}
+
+.firstnav a {
+  color: black;
+  text-decoration: none;
+}
+i {
+  color: black;
+}
+.firstnav circle {
+  display: flex;
+  justify-content: center;
+  align-items: power;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  color: white;
+  background-color: black;
+}
+.firstnav button {
+  background-color: black;
+  height: 4vh;
+  width: 2vw;
+  color: white;
+  text-align: center;
+  border-radius: 50px;
+}
+.online {
+  position: relative;
+}
+.online::after {
+  background-color: orangered;
+  border-radius: 50px;
+  content: "";
+  width: 5px;
+  height: 5px;
+  border: 2px solid orangered;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+form input {
+  width: 600px;
+  height: 40px;
+  background-color: #f8f9fb;
+  border: 1px solid #635d5d;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  padding-left: 60px;
+  outline: none;
+}
+form i {
+  position: absolute;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.secondnav nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(253, 247, 247);
+  height: 8vh;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+.secondnav a {
+  text-decoration: none;
+  font-family: sans-serif;
+  color: black;
+}
+.semifinal {
+  padding-left: 60px;
+  padding-top: 60px;
+  display: flex;
+  align-content: space-around;
+}
+section .final {
+  background-color: white;
+  width: 200vw;
+  height: 18vh;
+  padding: 25px;
+  margin: 20px;
+}
+.final {
+  line-height: 30px;
+}
+section .final h1 {
+  line-height: 5vh;
+  font-weight: 700;
+  font-size: 30px;
+}
+.semifinal p {
+  font-family: arial;
+  font-weight: 500;
+}
+
+.bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
